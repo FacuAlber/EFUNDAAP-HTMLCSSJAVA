@@ -1,0 +1,56 @@
+/* menu- header */
+h1, a,div {background: grey;}
+ul{
+	list-style: none;
+	text-align: center;
+	background: grey;
+}
+li {
+	display: inline-block;
+	font-size: 20px;
+	margin: 25px;
+}
+ul li a:hover {
+	background-color: red;
+	color: white;
+
+}
+a {text-decoration: none;
+   color: black;
+   padding: 10px;
+  }
+ .titulorojo{
+ 	color: #ff0303;
+ 	text-align: right;
+
+ }
+ .tituloverde{
+ 	color: green;
+ 	text-decoration: underline;
+ }
+ section {
+ 	margin: 20px;
+ 	display: inline-block;
+ }
+ section article {
+ 	background: #cccccc;
+ 	width: 500px;
+ 	height: 300px;
+ 	padding: 40px;
+ }
+  section article p{
+  	line-height: 4;
+  }
+
+  .otraSeccion{
+  	margin: 0px 80px;
+  	display: block;
+  }
+  .otraSeccion h3{
+  	letter-spacing: 4px;
+  	font-size: 20px;
+  }
+  .padre {
+
+  	text-align: center;
+  }
