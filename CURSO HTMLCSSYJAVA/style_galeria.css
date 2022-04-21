@@ -1,0 +1,158 @@
+/* menu- header */
+*{
+	box-sizing: border-box;
+	
+}
+
+body{
+	background-color: rgb(27, 27, 27);
+	margin: 0%;	
+}
+
+h1 {
+	color: rgb(183, 190, 194);
+}
+
+header{ 
+	
+	margin: 0%;
+	text-align: center;
+	width: 100%;
+	background-color: rgb(57, 66, 66);
+	flex-direction: row;
+	display: inline-block;
+
+}
+
+
+a {background: rgb(109, 108, 70);}
+
+
+nav {
+	margin: 0%;
+	padding: 0%;
+
+}
+
+
+
+ul{
+	margin: 0%;
+	padding: 0%;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	background: rgb(66, 77, 80);
+
+}
+
+li {
+	
+	display: inline-block;
+	font-size: 20px;
+	margin: 25px;
+}
+
+ul li a:hover {
+	background-color: rgb(31, 76, 94);
+	color: rgb(98, 155, 165);
+
+}
+
+a {text-decoration: none;
+   color: rgb(241, 233, 233);
+   padding: 10px;
+  }
+
+
+.general {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+
+.padre {
+	display:flex;
+	 flex-direction: column;
+
+
+}
+
+
+ .galeria {
+	 min-width: 200px;
+	 margin: 1vw 5vw ;
+	 min-height: 200px;
+	 max-height: 2000px;
+	 border-radius: 10px;
+	 background-color: rgb(38, 38, 41);
+	 display:inline-flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-content: center;
+	 flex-grow: 1;
+	 
+	 
+ }
+
+ .galeria_galapagos{
+	min-width: 200px;
+	margin: 1vw 5vw 1vw 1vw ;
+	border-radius: 10px;
+	background-color: rgb(38, 38, 41);
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	flex-grow: 1;
+
+ }
+
+.fotos {
+	display: inline-flex;
+	justify-content: center;
+	align-content: center;
+
+}
+
+.foto:hover { 
+    transform:scale(150%);
+    transition: 0.2s;
+    overflow: visible;
+    transition-delay: 0.15s;
+    
+
+}
+
+.foto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	
+	   	
+}
+
+
+ img {
+	padding: 2px;
+	margin-top: 1vh;
+	max-width: 100%;
+	max-height: 100%;
+  }
+
+
+  /*pie de pagina*/
+.otraSeccion{
+	height: 100px;
+	width: 100%;
+	background-color: rgb(201, 206, 206);
+	text-align: center;
+  	margin: 0px 0px;
+  	display: inline-block;
+  }
+  .otraSeccion h3{
+  	letter-spacing: 4px;
+  	font-size: 20px; 
+}
